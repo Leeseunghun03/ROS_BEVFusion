@@ -46,7 +46,7 @@ rosdep install -r -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 + rosbagData Conversion Reference[`nuscenes2rosbag`functional package](https://github.com/linClubs/nuscenes2rosbag)
 
-+ `nuscenes`Parameters between sensors are given without calibration.
++ `nuscenes` Parameters between sensors are given without calibration.
 
 If you need to connect a real sensor for scene testing, you need to complete **training** and **calibration** in advance.
 
@@ -95,9 +95,9 @@ roslaunch bevfusion bevfusion_node.launch
  rosbag play 103.bag 
 ~~~
 
-3. Run error report the file tool/simhei.ttf cannot be found. Perform a global search using the keywords tool/simhei.ttf or UseFont.
+3. Run error: The file tool/simhei.ttf cannot be found. Please perform a global search using the keywords tool/simhei.ttf or UseFont.
 
-Be present in /src/common/visualize.cu, modify the value of UseFont to the correct path for simhei.ttf.
+Please navigate to /src/common/visualize.cu and modify the value of UseFont to the correct path for simhei.ttf.
 
 ---
 
