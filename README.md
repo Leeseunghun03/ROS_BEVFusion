@@ -8,11 +8,11 @@ This repository contains source code and models for BEVFusion online real-time i
 ![](configs/cuda-bevfusion.gif)
 
 
-# 1 Dependency
+# 1. Dependency
 
 + **`ubuntu-20.04,noetic,cuda-11.3, cudnn-8.6.0, TensorRT-8.5`**
 
-1. By default, noetic, cuda, and cudnn are downloaded, and the TensorRT source code downloaded.
+1. By default, noetic, cuda, and cudnn are already installed, and the TensorRT source code has been downloaded.
 
 2. `ros` Dependency
 
@@ -53,9 +53,9 @@ If you need to connect a real sensor for scene testing, you need to complete **t
 [Sensor Calibration Reference](https://github.com/linClubs/Calibration-Is-All-You-Need)
 
 
-# 2 Compile and run
+# 2. Compile and Run
 
-1.Modifications required before compilation in CMakeLists.txt, modify the paths for TensorRT and CUDA as follows.
+1. Modifications required before compilation in CMakeLists.txt, modify the paths for TensorRT and CUDA as follows.
 
 ~~~python
 ...
@@ -85,7 +85,7 @@ set(TensorRT_LIBS ${TensorRT_ROOT}/lib/)
 # 1. Compile
 catkin_make
 
-# 2. Source Work space
+# 2. Source Workspace
 source devel/setup.bash
 
 # 3. Run bevfusion_node
@@ -101,7 +101,7 @@ Please navigate to /src/common/visualize.cu and modify the value of UseFont to t
 
 ---
 
-# References
+# 3. References
 
 + [bevfusion](https://github.com/mit-han-lab/bevfusion)
 + [Lidar_AI_Solution](https://github.com/NVIDIA-AI-IOT/Lidar_AI_Solution)
