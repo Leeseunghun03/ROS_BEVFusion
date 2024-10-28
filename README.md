@@ -73,7 +73,7 @@ set(TensorRT_LIBS ${TensorRT_ROOT}/lib/)
 ...
 ~~~
 
-2. 编译运行
+2. Compilation and Execution
 
 + `bevfusion_node.launch`修改`model_name`与`precision`参数值
 
