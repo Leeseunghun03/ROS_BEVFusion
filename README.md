@@ -44,7 +44,7 @@ rosdep install -r -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 + `bevfusion` Officially provided trained 'nuscenes' model parameters
 
-+ rosbagData Conversion Reference[`nuscenes2rosbag`functional package](https://github.com/linClubs/nuscenes2rosbag)
++ rosbagData Conversion Reference[`nuscenes2rosbag`](https://github.com/linClubs/nuscenes2rosbag)
 
 + `nuscenes` Parameters between sensors are given without calibration.
 
