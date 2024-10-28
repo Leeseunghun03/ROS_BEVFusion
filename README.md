@@ -33,7 +33,7 @@ rosdep install -r -y --from-paths src --ignore-src --rosdistro $ROS_DISTRO
 
 4. [Model Export Reference](https://github.com/NVIDIA-AI-IOT/Lidar_AI_Solution/blob/master/CUDA-BEVFusion/qat/README.md)
 
-+ Amend`./tool/environment. The path to cuda Tensorrt cudnn in sh, run. /tool/build_trt_engine.sh` Generate TensorRt inference model
++ Modify the paths for CUDA, TensorRT, and cuDNN in ./tool/environment.sh, then run ./tool/build_trt_engine.sh to generate the TensorRT inference model.
 
 ~~~python
 ./tool/build_trt_engine.sh
